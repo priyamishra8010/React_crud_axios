@@ -1,0 +1,98 @@
+
+.main-section{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.section-post{
+  width: 90%;
+
+  & ol{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap:3.2rem
+  }
+
+  & li{
+    background-color: rgb(96, 179, 182);
+    padding: 1.6rem;
+    border-radius: 0.2rem;
+    -webkit-border-radius : 0.3 rem;
+    -moz-border-radius : 0.3 rem;
+    -ms-border-radius : 0.3 rem;
+    -o-border-radius : 0.3 rem;
+     list-style-position: inside;
+
+     &:hover{
+          background-color: rgb(10, 132, 136);
+          box-shadow: rgb(207, 195, 195) 0px 9px 19px 0px;
+     }
+  }
+}
+
+.edit-btn{
+  height: 2rem;
+  width: 5rem;
+  background-color: rgb(6, 245, 57);
+  border: none;
+  margin-left: 1rem;
+  /* color:white */
+  font-weight: 600;
+}
+
+.delete-btn{
+  height: 2rem;
+  width: 5rem;
+  background-color: rgb(243, 23, 23);
+  border: none;
+  margin-left: 1rem;
+  color:white;
+  font-weight: 600;
+
+
+
+}
+
+/* +++++++++++++++++++++++ post from+++++++++++ */
+
+.post-from{
+  background-color: rgb(255, 153, 51);
+  padding: 1.6rem;
+  border-radius: 0.2rem;
+  -webkit-border-radius : 0.6 rem;
+  -moz-border-radius : 0.6 rem;
+  -ms-border-radius : 0.6 rem;
+  -o-border-radius : 0.6 rem;
+  margin: 3.2rem auto;
+}
+
+form{
+  display: flex;
+  gap:1.3rem
+} 
+
+input {
+  width: 20rem;
+  height: 2rem;
+  border: 0.1rem solid white;
+  outline: none;
+  border-radius: 0.3rem;
+  -webkit-border-radius : 0.3 rem;
+  -moz-border-radius : 0.3 rem;
+  -ms-border-radius : 0.3 rem;
+  -o-border-radius : 0.3 rem;
+  padding: 0.2rem 1.8rem;
+}
+
+.addbtn{
+  background-color: rgb(190, 100, 9);
+  color: white;
+  width:5rem;
+  font-weight: 800;
+  border: none;
+}
